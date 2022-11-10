@@ -1,12 +1,13 @@
+import Search from './components/search';
 import * as S from './styled';
 
-function Menu() {
+function Menu({ valorDoFiltro, setValorDoFiltro }) {
     return (
       <S.StyledMenu>
         <div>
           <Logo />
-        </div>
-          
+        </div>          
+          <Search valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
       </S.StyledMenu>
   )
 }
