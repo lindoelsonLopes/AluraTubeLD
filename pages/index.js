@@ -8,7 +8,7 @@ import { CSSReset } from '../src/components/CSSReset';
 
 
 function HomePage() {
-  const [valorDoFiltro, setValorDoFiltro] = useState('Angular');
+  const [valorDoFiltro, setValorDoFiltro] = useState('');
   
     return (
       <>
